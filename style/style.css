@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* ---------------Tipografias--------------- */
+/* ---------------tamanio fuente--------------- */
+/* ---------------Colores--------------- */
+/* ---------------Background color---------------*/
+/* MENU */
+.navbar-nav li {
+  margin-top: -25pt;
+  padding: 25pt;
+  margin-bottom: -25pt; }
+  .navbar-nav li a {
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase; }
+
+.img-fluid {
+  width: 30px;
+  height: 30px; }
+
+/* SECCIONES */
+.parteDelHome {
+  display: grid;
+  grid-template-areas: 'secA0' 'secA1' 'secA2' 'secA3';
+  grid-template-columns: 2fr;
+  grid-template-rows: 600px 400px 400px; }
+
+h1 {
+  padding-top: 50px;
+  text-align: center;
+  background-color: #d2d2d7; }
+
+.carousel {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+.secA1 {
+  background-color: #fbfbfd; }
+  .secA1 h2 {
+    font-size: 50px;
+    text-align: left;
+    text-transform: capitalize;
+    color: #1d1d1f;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif; }
+  .secA1 h3 {
+    text-align: center;
+    color: #1d1d1f;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif; }
+  .secA1 h4 {
+    text-align: center;
+    color: #424245;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif; }
+
+.secA2 {
+  background-color: #d2d2d7;
+  padding-bottom: 200px; }
+  .secA2 h2 {
+    font-size: 50px;
+    text-align: left;
+    text-transform: capitalize;
+    color: #1d1d1f;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif; }
+  .secA2 p {
+    color: #424245;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif; }
+  .secA2 ul li {
+    padding-bottom: 100px;
+    padding-top: 50px;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    text-transform: capitalize; }
+
+.secA3 {
+  display: grid;
+  background-color: #fbfbfd; }
+  .secA3 h2 {
+    font-size: 50px;
+    text-align: left;
+    text-transform: capitalize;
+    color: #1d1d1f;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif; }
+
+.imagenCont {
+  width: 100%; }
+
+/* FOOTER */
+.estiloFooter {
+  display: flex;
+  justify-content: space-around;
+  background-color: #d2d2d7;
+  color: #1d1d1f;
+  font-weight: bold; }
+  .estiloFooter p {
+    margin-bottom: 0; }
+
+/* FORMULARIO CONTACTO */
+.containerFt {
+  padding-top: 57px;
+  padding-right: 20px;
+  background-color: #fbfbfd; }
+
+.anchoTotal {
+  width: 100%;
+  height: 100%; }
+
+.mb-3 {
+  text-align: center; }
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 767px) and (min-width: 321px) {
+  .containerFt {
+    padding-left: 20px; }
+    .containerFt .row {
+      display: block; } }
+
+/* mobile */
+@media only screen and (max-width: 320px) {
+  .containerFt {
+    padding-left: 20px; }
+    .containerFt .row {
+      display: block; }
+  .secA2 {
+    display: none; } }
