@@ -13,7 +13,7 @@
   padding: 25pt;
   margin-bottom: -25pt; }
   .navbar-nav li a {
-    font-family: 'Nunito', sans-serif;
+    font-family: "Nunito", sans-serif;
     text-transform: uppercase; }
 
 .img-fluid {
@@ -27,11 +27,6 @@
   grid-template-columns: 2fr;
   grid-template-rows: 600px 400px 400px; }
 
-h1 {
-  padding-top: 50px;
-  text-align: center;
-  background-color: #d2d2d7; }
-
 .carousel {
   width: 100%;
   height: 100%;
@@ -44,15 +39,16 @@ h1 {
     text-align: left;
     text-transform: capitalize;
     color: #1d1d1f;
-    font-family: 'Zen Kaku Gothic Antique', sans-serif; }
+    font-family: "Zen Kaku Gothic Antique", sans-serif; }
   .secA1 h3 {
     text-align: center;
     color: #1d1d1f;
-    font-family: 'Zen Kaku Gothic Antique', sans-serif; }
+    text-transform: capitalize;
+    font-family: "Zen Kaku Gothic Antique", sans-serif; }
   .secA1 h4 {
     text-align: center;
     color: #424245;
-    font-family: 'Zen Kaku Gothic Antique', sans-serif; }
+    font-family: "Zen Kaku Gothic Antique", sans-serif; }
 
 .secA2 {
   background-color: #d2d2d7;
@@ -62,14 +58,14 @@ h1 {
     text-align: left;
     text-transform: capitalize;
     color: #1d1d1f;
-    font-family: 'Zen Kaku Gothic Antique', sans-serif; }
+    font-family: "Zen Kaku Gothic Antique", sans-serif; }
   .secA2 p {
     color: #424245;
-    font-family: 'Zen Kaku Gothic Antique', sans-serif; }
+    font-family: "Zen Kaku Gothic Antique", sans-serif; }
   .secA2 ul li {
     padding-bottom: 100px;
     padding-top: 50px;
-    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-family: "Zen Kaku Gothic Antique", sans-serif;
     text-transform: capitalize; }
 
 .secA3 {
@@ -80,7 +76,7 @@ h1 {
     text-align: left;
     text-transform: capitalize;
     color: #1d1d1f;
-    font-family: 'Zen Kaku Gothic Antique', sans-serif; }
+    font-family: "Zen Kaku Gothic Antique", sans-serif; }
 
 .imagenCont {
   width: 100%; }
