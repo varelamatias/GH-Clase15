@@ -106,7 +106,7 @@
 
 .estiloFooter{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: $backgroundSecundario;
     color: $colorPrincipal;
     font-weight: bold;
@@ -132,6 +132,14 @@
     text-align: center;
 }
 
+/* 404 */
+
+.imagen404{
+    height: 100%;
+    width: 100%; 
+}
+
+
 /* MEDIA QUERIES */
 
 @media only screen and (min-width:768px){
@@ -150,7 +158,6 @@
         grid-template-rows: 400px 300px 500px;     
     }
    
-    
 }
 
 /* mobile */
@@ -162,19 +169,24 @@
             display: block;
         }
     }
+    .estiloFooter{
+        font-size: 80%;
+    }
     .parteDelHome{ 
-        grid-template-rows: 200px 300px;     
+        grid-template-rows: 200px 300px 900px;     
     }
     .secA2{
-        display: none;
+        ul{
+            li{
+                padding-right: 10%;
+                padding-left: 10%;
+            }
+        }
     }
-    .secA1{
-        background-color: $backgroundSecundario;
-    }
-    
 }
+    
 
-@media only screen and (max-width: 414px){
+@media only screen and (max-width: 375px){
    
     .containerFt{
         padding-left: 20px;
@@ -182,14 +194,19 @@
             display: block;
         }
     }
+    .estiloFooter{
+        font-size: 80%;
+    }
     .parteDelHome{ 
-        grid-template-rows: 200px 300px;     
+        grid-template-rows: 200px 300px 900px;     
     }
     .secA2{
-        display: none;
+        ul{
+            li{
+                padding-right: 25%;
+                padding-left: 25%;
+            }
+        }
     }
-    .secA1{
-        background-color: $backgroundSecundario;
-    }
-    
 }
+
